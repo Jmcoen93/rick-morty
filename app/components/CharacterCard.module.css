@@ -1,0 +1,35 @@
+.card {
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.info {
+  padding: 15px;
+}
+
+.name {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 20px;
+  justify-content: center;
+}
